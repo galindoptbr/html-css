@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treino</title>
+</head>
+<body>
+    <h1 id="titulo">Cadastro de cliente </h1>
+    <p id="subtitulo" >Informe seus dados</p>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label><strong>Para qual empresa você trabalha?</strong></label>
+                <label>
+                    <input type="radio" name="empresa" value="PingoDoce" checked>PingoDoce
+                </label>
+                <label>
+                    <input type="radio" name="empresa" value="Continente">Continente
+                </label>
+                <label>
+                    <input type="radio" name="empresa" value="Ldl">Ldl
+                </label>
+                <div class="campo">
+                    <label for="funcao"><strong>Função</strong></label>
+                    <select id="funcao" required>
+                    <option select disabled value="">Selecione</option>
+                    <option>Motorista</option>
+                    <option>Atendente</option>
+                    <option>Administrativo</option>
+                    </select>
+                </div>
+                <div id="check">
+                    <label><strong>Selecione a opção desejada:</strong></label>
+                    <input type="checkbox" id="opcao1" name="opcao1" value="Entrega">
+                    <label for="opcao1">Entrega</label>
+                    <input type="checkbox" id="opcao2" name="opcao2" value="Documento">
+                    <label for="opcao2">Documento</label>
+                    <input type="checkbox" id="opcao3" name="opcao3" value="Atendimento">
+                    <label for="opcao3">Atendimento</label>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

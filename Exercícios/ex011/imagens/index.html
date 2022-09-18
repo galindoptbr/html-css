@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favcon/favcon.svg" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Mídias em HTML</h1>
+    <p>Tente abrir esse site em vários dispositvos diferentes ou apenas aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="300x300px.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="700x700px.png" type="image/png">
+        <img src="1000x1000px.png" alt="Imagem Flexível">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <audio src="../midia/Swimming.mp3" controls></audio>
+    <h1>Reproduzindo Vídeo</h1>
+    <p>A tag < video > é utilizada para hospedagem própria de vídeos que consome muito tráfego de dados, isso acarreta em despesas para o seu cliente.</p>
+    <video width="200" controls poster="thumbtina.png">
+        <source src="../midia/valentina.mp4" type="video/mp4">
+    </video>
+    <h1>Inserindo vídeo do YouTube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/tjZQnk5j6Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+</body>
+</html>

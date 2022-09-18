@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-align: center;
+}
+
+#subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-align: center;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;    
+    margin-top: 5%;
+    margin-left: auto;
+    justify-content: center;
+    color: blueviolet;
+}
+
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: blueviolet;
+    border-radius: 5px;
+    
+        
+}
+
+.campo{
+    margin-bottom: 1em;
+    margin-left: 35%;
+}
+
+.campo label{
+    margin: 0.2em;
+    color: blueviolet;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px grey;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.campo input:focus, .campo input::selection, .campo textarea:focus{
+    background: whitesmoke;
+}
+
+fieldset.grupo .campo{
+    float: auto;
+    margin-right: 1em;
+}
