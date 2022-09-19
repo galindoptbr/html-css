@@ -19,7 +19,7 @@
 
 body {
     margin: 0;
-    background-color: var(--cor4);
+    background-image: url('imagens/background.png');
 }
 
 a {
@@ -52,7 +52,6 @@ nav {
 .main {
     width: 100vw;
     height: 40vh;
-    background-color: var(--cor4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +83,6 @@ nav {
 .sobremim {
     display: flex;
     width: 90vw;
-    background-color: var(--cor4);
     font-family: var(--font-padrao);
     color: white;
     text-align: justify;
