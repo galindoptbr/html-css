@@ -17,86 +17,71 @@
     padding: 0px;
 }
 
-body {
-    margin: 0;
-    background-image: url('imagens/background.png');
+nav {
+    background-color: var(--cor2);
+    text-align: center;
+    height: 5vh;
+    padding-top: 15px;
+
 }
 
-a {
+nav > a {
     font-family: var(--font-padrao);
-    color: white;
     text-decoration: none;
-    padding: 10px;
-
-}
-
-
-nav { 
-    display: flex;
-    justify-content: space-around;
-    background-color: #4703A6;
-    align-items: center;
-    height: 8vh;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list > li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
-.main {
-    width: 100vw;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.apresentacao {
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.apresentacao > h1 {
     color: white;
+    padding: 10px;
+}
+
+
+
+div.apresentacao {
     font-family: var(--font-padrao);
+    color: white;
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    max-width: 80vw;
+    
 }
 
-.meulogo {
-    width: 30vw;
+div.meulogo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+    width: 40vw;
 }
 
-.sobremim {
-    display: flex;
-    width: 90vw;
+body {
+    background-color: var(--cor4);
+}
+
+section.sobremim {
     font-family: var(--font-padrao);
     color: white;
     text-align: justify;
-    padding: 10px;
-
-       
+    width: 70vw;
+    
 }
 
-p {
-    display: flex;
-    width: 80vw;
-    align-items: center;
-    justify-content: center;
-    margin-left: 80px;
-    
+section.sobremim > p {
+    padding: 60px;
+    width: 70vw;
+}
 
+footer {
+    font-family: var(--font-padrao);
+    background-color: var(--cor3);
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: yellowgreen;
 }
