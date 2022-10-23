@@ -46,7 +46,9 @@ div.apresentacao {
 
 div.meulogo {
     display: flex;    
-    width: 40vw;
+    width: 300px;
+    padding-left: 65vw;
+    margin-top: -140px;
 }
 
 body {
