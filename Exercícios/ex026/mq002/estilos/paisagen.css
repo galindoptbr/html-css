@@ -1,4 +1,11 @@
 @charset "UTF-8;"
 
-/* Aparelh dietado */
+/* Aparelh deitado (landscape) */
 
+body {
+    background-image: url(../imagens/cev-landscape.jpg);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
