@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */
+
+@media print {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
